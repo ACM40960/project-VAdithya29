@@ -15,8 +15,8 @@ The dataset can be found on LA City's website on <a href="https://data.lacity.or
 ### Libraries and Packages used: 
 | Language | Libraries Used |
 |----------|----------------|
-| R        |dplyr, ggplot2, plotly                |
-| Python   |keras, scikit-learn, matplotlib, pandas, numpy                |
+| R        |dplyr, ggplot2, plotly, lubridate, caret                |
+| Python   |tensorflow keras, scikit-learn, matplotlib, pandas, numpy, datetime                |
 
 Data was first cleaned and processed to include only the relevant data for each model.
 Data was split into 3 parts, based on the range considered.
