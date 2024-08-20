@@ -35,7 +35,7 @@ This is a comparison table of the results we got from using the Random Forest an
 |                        | With L&L      | Without L&L    | With L&L        | Without L&L    |
 | 2020-23, Top 10        | 26.19         | 19.46          | 26.32           | 26.29          |
 | 2023, All Crimes       | 18.8          | 18.97          | 18.85           | 19.04          |
-| 2023, Top 10           | 28.68         | 27.06          | 26.77           | 27.06          |
+| 2023, Top 10           | **28.68**         | 27.06          | 26.77           | 27.06          |
 
 As we can see, the Random Forest Test that predicts only the top 10 types of crimes that occured in 2023, performed the best.
 Overall, all models that predicted streamlined data worked the best, but there was not a huge dropoff when comparead against models that considered data for all 4 years, meaning, it is a tradeoff.
