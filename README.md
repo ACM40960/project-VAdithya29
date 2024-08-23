@@ -49,4 +49,3 @@ Overall, all models that predicted streamlined data worked the best, but there w
 - Integrating the crime prediction system with IoT devices and smart surveillance systems in cities to enhance real-time monitoring and response  
 - Facilitating data sharing and collaboration between law enforcement agencies, municipalities, and research institutions to improve crime prediction and prevention strategies  
 - Conducting studies to assess the impact of predictive policing and hotspot detection on actual crime rates and community safety over time
-- 
