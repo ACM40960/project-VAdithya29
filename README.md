@@ -18,16 +18,16 @@ The dataset can be found on LA City's website on <a href="https://data.lacity.or
 | R        |dplyr, ggplot2, plotly, lubridate, caret                |
 | Python   |tensorflow keras, scikit-learn, matplotlib, pandas, numpy, datetime                |
 
-Data was first cleaned and processed to include only the relevant data for each model.
-Data was split into 3 parts, based on the range considered.
-2. Year 2020-2023, All Types of Crimes
-2. Years 2020-2023, Top 10 Types of Crimes
-3. Year 2023, All Types of Crimes
-4. Year 2023, Top 10 Types of Crimes
-Individual Jupyter notebooks for all these are included in the repository.
-**Please note that the files may take upto 3 hours to run due to the neural networks being slow. You can can comment it out and run just the random forest. The wait time should be much shorter.**
-Random Forest and Neural Network models were fitted for all each of these and the results were checked to select the  best model.
-SVM and Gradient Boosting were also tried out but failed to provide satisfactory results.
+Data was first cleaned and processed to include only the relevant data for each model.  
+Data was split into 3 parts, based on the range considered.  
+2. Year 2020-2023, All Types of Crimes  
+2. Years 2020-2023, Top 10 Types of Crimes  
+3. Year 2023, All Types of Crimes  
+4. Year 2023, Top 10 Types of Crimes  
+Individual Jupyter notebooks for all these are included in the repository.  
+**Please note that the files may take upto 3 hours to run due to the neural networks being slow. You can can comment it out and run just the random forest. The wait time should be much shorter.**  
+Random Forest and Neural Network models were fitted for all each of these and the results were checked to select the best model.  
+SVM and Gradient Boosting were also tried out but failed to provide satisfactory results.  
 
 ## Results
 This is a comparison table of the results we got from using the Random Forest and Neural Networks.
@@ -39,13 +39,14 @@ This is a comparison table of the results we got from using the Random Forest an
 | 2023, All Crimes       | 18.8          | 18.97          | 18.85           | 19.04          |
 | 2023, Top 10           | **28.68**         | 27.06          | 26.77           | 27.06          |
 
-As we can see, the Random Forest Test that predicts only the top 10 types of crimes that occured in 2023, performed the best.
-Overall, all models that predicted streamlined data worked the best, but there was not a huge dropoff when comparead against models that considered data for all 4 years, meaning, it is a tradeoff.
+As we can see, the Random Forest Test that predicts only the top 10 types of crimes that occured in 2023, performed the best.  
+Overall, all models that predicted streamlined data worked the best, but there was not a huge dropoff when comparead against models that considered data for all 4 years, meaning, it is a tradeoff.  
 
 ## Future Scope
-- Enhanced Crime Prediction Models
-- Implementing models that can detect emerging crime hotspots in real-time
-- Using insights from the data to inform and develop more effective crime prevention strategies tailored to specific areas or types of crime
-- Integrating the crime prediction system with IoT devices and smart surveillance systems in cities to enhance real-time monitoring and response
-- Facilitating data sharing and collaboration between law enforcement agencies, municipalities, and research institutions to improve crime prediction and prevention strategies
+- Enhanced Crime Prediction Models  
+- Implementing models that can detect emerging crime hotspots in real-time  
+- Using insights from the data to inform and develop more effective crime prevention strategies tailored to specific areas or types of crime  
+- Integrating the crime prediction system with IoT devices and smart surveillance systems in cities to enhance real-time monitoring and response  
+- Facilitating data sharing and collaboration between law enforcement agencies, municipalities, and research institutions to improve crime prediction and prevention strategies  
 - Conducting studies to assess the impact of predictive policing and hotspot detection on actual crime rates and community safety over time
+- 
